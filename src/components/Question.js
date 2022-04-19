@@ -2,10 +2,14 @@
  * Card to show a question and retrieve an answer from the user
  */
 import { useState } from "react";
+import { useDispatch } from 'react-redux';
+import { register } from "../redux/features/question/questionSlice";
 import Form from "react-bootstrap/Form";
-import {Button, Row} from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
+import "../css/Question.css";
 
-const Question = ({ id, isQType, questionTitle, questionOptions}) => {
+const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) => {
+    const dispatch = useDispatch();
     const [questionAnswer, setQuestionAnswer] = useState(null);
     const [questionStartTime, setQuestionStartTime] = useState(null);
     const [isChecked, setChecked] = useState(false);
@@ -32,16 +36,16 @@ const Question = ({ id, isQType, questionTitle, questionOptions}) => {
         let result;
         if (isQType) {
             result = {
-                [questionTitle]: {
-                    [`${questionTitle}A`]: questionAnswer,
-                    [`${questionTitle}E`]: (Date.now() - questionStartTime) / 1000
+                [questionId]: {
+                    [`${questionId}A`]: questionAnswer,
+                    [`${questionId}E`]: (Date.now() - questionStartTime) / 1000
                 }
             }
         }
         else {
             result = {
-                [questionTitle]: {
-                    [`${questionTitle}`]: questionAnswer,
+                [questionId]: {
+                    [`${questionId}`]: questionAnswer,
                 }
             }
         }
@@ -71,22 +75,30 @@ const Question = ({ id, isQType, questionTitle, questionOptions}) => {
     const cleanForm = () => {
         setQuestionStartTime(null);
         setQuestionAnswer(null);
-        setChecked(null);
+        setChecked(false);
     };
 
     // Render component
     return (
-        <div>
-            <h3>{`${id}: ${questionTitle}`}</h3>
-            <Row>
-                {renderOptions()}
-            </Row>
-            <Button
-                onClick={e => handleSubmit()}
-            >
-                Registrar respuesta
-            </Button>
-        </div>
+        <Card>
+            <Card.Body>
+                <Card.Title
+                    className="question-title"
+                >
+                    {`${id}: ${questionTitle}`}
+                </Card.Title>
+                <Form>
+                    <Form.Group className="mb-3">
+                        {renderOptions()}
+                    </Form.Group>
+                </Form>
+                <Button
+                    onClick={e => dispatch(register(handleSubmit()))}
+                >
+                    Registrar respuesta
+                </Button>
+            </Card.Body>
+        </Card>
     );
 };
 
