@@ -26,7 +26,6 @@ const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) =>
     const handleStartTime = () => {
         if (questionStartTime === null) {
             const time = Date.now();
-            console.log("Tiempo de inicio: ", time);
             setQuestionStartTime(time);
         }
     };
@@ -49,7 +48,6 @@ const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) =>
                 }
             }
         }
-        console.log("Result: ", result);
         return result;
     };
 

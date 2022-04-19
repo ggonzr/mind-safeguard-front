@@ -1,0 +1,1566 @@
+[
+    {
+        "id": 1,
+        "isQType": true,
+        "questionId": "Q1",
+        "questionTitle": "Me encontré con que me alteraba por cosas bastante triviales.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 2,
+        "isQType": true,
+        "questionId": "Q2",
+        "questionTitle": "Me di cuenta de que tenía la boca seca.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 3,
+        "isQType": true,
+        "questionId": "Q3",
+        "questionTitle": "No pude experimentar ningún sentimiento positivo.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 4,
+        "isQType": true,
+        "questionId": "Q4",
+        "questionTitle": "Experimenté dificultad para respirar (p. ej., respiración excesivamente rápida, disnea en ausencia de esfuerzo físico).",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 5,
+        "isQType": true,
+        "questionId": "Q5",
+        "questionTitle": "Parecía que no podía ponerse en marcha.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 6,
+        "isQType": true,
+        "questionId": "Q6",
+        "questionTitle": "Tendía a reaccionar de forma exagerada ante las situaciones.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 7,
+        "isQType": true,
+        "questionId": "Q7",
+        "questionTitle": "Tenía una sensación de temblor (por ejemplo, las piernas iban a ceder).",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 8,
+        "isQType": true,
+        "questionId": "Q8",
+        "questionTitle": "Me resultaba difícil relajarme.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 9,
+        "isQType": true,
+        "questionId": "Q9",
+        "questionTitle": "Me encontré en situaciones que me ponían tan ansioso que me sentí más aliviado cuando terminaron.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 10,
+        "isQType": true,
+        "questionId": "Q10",
+        "questionTitle": "Sentí que no tenía nada que esperar.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 11,
+        "isQType": true,
+        "questionId": "Q11",
+        "questionTitle": "Me he encontrado con que me enfadaba con bastante facilidad.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 12,
+        "isQType": true,
+        "questionId": "Q12",
+        "questionTitle": "Sentí que utilizaba mucha energía nerviosa.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 13,
+        "isQType": true,
+        "questionId": "Q13",
+        "questionTitle": "Me sentía triste y deprimido.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 14,
+        "isQType": true,
+        "questionId": "Q14",
+        "questionTitle": "Me impacientaba cuando sufría algún tipo de retraso (por ejemplo, en los ascensores, en los semáforos o cuando me hacían esperar).",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 15,
+        "isQType": true,
+        "questionId": "Q15",
+        "questionTitle": "Tuve una sensación de desmayo.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 16,
+        "isQType": true,
+        "questionId": "Q16",
+        "questionTitle": "Sentí que había perdido el interés por casi todo.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 17,
+        "isQType": true,
+        "questionId": "Q17",
+        "questionTitle": "Sentí que no valía mucho como persona.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 18,
+        "isQType": true,
+        "questionId": "Q18",
+        "questionTitle": "Sentí que estaba bastante susceptible.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 19,
+        "isQType": true,
+        "questionId": "Q19",
+        "questionTitle": "Transpiré notablemente (por ejemplo, me sudaron las manos) en ausencia de temperaturas altas o de esfuerzo físico.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 20,
+        "isQType": true,
+        "questionId": "Q20",
+        "questionTitle": "Sentí que tenía miedo sin ninguna razón de peso.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 21,
+        "isQType": true,
+        "questionId": "Q21",
+        "questionTitle": "Sentí que la vida no valía la pena.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 22,
+        "isQType": true,
+        "questionId": "Q22",
+        "questionTitle": "Me resultó difícil relajarme.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 23,
+        "isQType": true,
+        "questionId": "Q23",
+        "questionTitle": "Tuve dificultades para tragar.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 24,
+        "isQType": true,
+        "questionId": "Q24",
+        "questionTitle": "No conseguía disfrutar de las cosas que hacía.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 25,
+        "isQType": true,
+        "questionId": "Q25",
+        "questionTitle": "Era consciente de la acción de mi corazón en ausencia de esfuerzo físico (p. ej., sensación de aumento de la frecuencia cardíaca, de que el corazón dejaba de latir).",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 26,
+        "isQType": true,
+        "questionId": "Q26",
+        "questionTitle": "Me sentía deprimido y triste.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 27,
+        "isQType": true,
+        "questionId": "Q27",
+        "questionTitle": "Me sentía muy irritable.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 28,
+        "isQType": true,
+        "questionId": "Q28",
+        "questionTitle": "Sentí que estaba a punto de entrar en pánico.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 29,
+        "isQType": true,
+        "questionId": "Q29",
+        "questionTitle": "Me resultó difícil calmarme después de que algo me alterara.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 30,
+        "isQType": true,
+        "questionId": "Q30",
+        "questionTitle": "Temía fracasar en alguna tarea que parece trivial pero desconocida.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 31,
+        "isQType": true,
+        "questionId": "Q31",
+        "questionTitle": "No pude entusiasmarme con nada.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 32,
+        "isQType": true,
+        "questionId": "Q32",
+        "questionTitle": "Me resultaba difícil tolerar las interrupciones de lo que estaba haciendo.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 33,
+        "isQType": true,
+        "questionId": "Q33",
+        "questionTitle": "Me encontraba en un estado de tensión nerviosa.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 34,
+        "isQType": true,
+        "questionId": "Q34",
+        "questionTitle": "Me sentía bastante inútil.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 35,
+        "isQType": true,
+        "questionId": "Q35",
+        "questionTitle": "No toleraba nada que me impidiera seguir con lo que estaba haciendo.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 36,
+        "isQType": true,
+        "questionId": "Q36",
+        "questionTitle": "Me sentía aterrorizado.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 37,
+        "isQType": true,
+        "questionId": "Q37",
+        "questionTitle": "No veía nada en el futuro para tener esperanza.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 38,
+        "isQType": true,
+        "questionId": "Q38",
+        "questionTitle": "Sentía que la vida no tenía sentido.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 39,
+        "isQType": true,
+        "questionId": "Q39",
+        "questionTitle": "Me sentía agitado(a).",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 40,
+        "isQType": true,
+        "questionId": "Q40",
+        "questionTitle": "Me preocupaban las situaciones en las que podía entrar en pánico y hacer el ridículo.",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 41,
+        "isQType": true,
+        "questionId": "Q41",
+        "questionTitle": "Experimenté temblores (por ejemplo, en las manos).",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
+        "id": 43,
+        "isQType": false,
+        "questionId": "TIPI1",
+        "questionTitle": "Me considero una persona: Extrovertida, entusiasta.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 44,
+        "isQType": false,
+        "questionId": "TIPI2",
+        "questionTitle": "Me considero una persona: Crítica, pendenciera.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 45,
+        "isQType": false,
+        "questionId": "TIPI3",
+        "questionTitle": "Me considero una persona: Confiable, autodisciplinada.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 46,
+        "isQType": false,
+        "questionId": "TIPI4",
+        "questionTitle": "Me considero una persona: Ansiosa, se altera fácilmente.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 47,
+        "isQType": false,
+        "questionId": "TIPI5",
+        "questionTitle": "Me considero una persona: Abierta a nuevas experiencias, compleja.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 48,
+        "isQType": false,
+        "questionId": "TIPI6",
+        "questionTitle": "Me considero una persona: Reservada, tranquila.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 49,
+        "isQType": false,
+        "questionId": "TIPI7",
+        "questionTitle": "Me considero una persona: Simpática, cálida.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 50,
+        "isQType": false,
+        "questionId": "TIPI8",
+        "questionTitle": "Me considero una persona: Desorganizada, descuidada.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 51,
+        "isQType": false,
+        "questionId": "TIPI9",
+        "questionTitle": "Me considero una persona: Tranquila, emocionalmente estable.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 54,
+        "isQType": false,
+        "questionId": "education",
+        "questionTitle": "¿Qué nivel de estudios has completado?",
+        "questionOptions": [
+            [
+                1,
+                "Menos de secundaria"
+            ],
+            [
+                2,
+                "Secundaria"
+            ],
+            [
+                3,
+                "Título universitario"
+            ],
+            [
+                4,
+                "Grado"
+            ]
+        ]
+    },
+    {
+        "id": 55,
+        "isQType": false,
+        "questionId": "urban",
+        "questionTitle": "¿En qué tipo de zona vivía cuando era niño?",
+        "questionOptions": [
+            [
+                1,
+                "Rural (campo)"
+            ],
+            [
+                2,
+                "Suburbano"
+            ],
+            [
+                3,
+                "Urbano (pueblo | ciudad)"
+            ]
+        ]
+    },
+    {
+        "id": 56,
+        "isQType": false,
+        "questionId": "gender",
+        "questionTitle": "¿Cuál es su género?",
+        "questionOptions": [
+            [
+                1,
+                "Hombre"
+            ],
+            [
+                2,
+                "Mujer"
+            ],
+            [
+                3,
+                "Otro"
+            ]
+        ]
+    },
+    {
+        "id": 57,
+        "isQType": false,
+        "questionId": "engnat",
+        "questionTitle": "¿Es el inglés su lengua materna?",
+        "questionOptions": [
+            [
+                1,
+                "Sí"
+            ],
+            [
+                2,
+                "No"
+            ]
+        ]
+    },
+    {
+        "id": 58,
+        "isQType": false,
+        "questionId": "hand",
+        "questionTitle": "¿Con qué mano escribe?",
+        "questionOptions": [
+            [
+                1,
+                "Derecha"
+            ],
+            [
+                2,
+                "Izquierda"
+            ],
+            [
+                3,
+                "Ambas"
+            ]
+        ]
+    },
+    {
+        "id": 59,
+        "isQType": false,
+        "questionId": "religion",
+        "questionTitle": "¿Cuál es su religión?",
+        "questionOptions": [
+            [
+                1,
+                "Agnóstica"
+            ],
+            [
+                2,
+                "Ateísta"
+            ],
+            [
+                3,
+                "Budista"
+            ],
+            [
+                4,
+                "Cristiana (católica)"
+            ],
+            [
+                5,
+                "Cristiana (mormona)"
+            ],
+            [
+                6,
+                "Cristiana (protestante)"
+            ],
+            [
+                7,
+                "Cristiana (otra)"
+            ],
+            [
+                8,
+                "Hindú"
+            ],
+            [
+                9,
+                "Judía"
+            ],
+            [
+                10,
+                "Musulmana"
+            ],
+            [
+                11,
+                "Sijista"
+            ],
+            [
+                12,
+                "Otra"
+            ]
+        ]
+    },
+    {
+        "id": 60,
+        "isQType": false,
+        "questionId": "orientation",
+        "questionTitle": "¿Cuál es su orientación sexual?",
+        "questionOptions": [
+            [
+                1,
+                "Heterosexual"
+            ],
+            [
+                2,
+                "Bisexual"
+            ],
+            [
+                3,
+                "Homosexual"
+            ],
+            [
+                4,
+                "Asexual"
+            ],
+            [
+                5,
+                "Otra"
+            ]
+        ]
+    },
+    {
+        "id": 61,
+        "isQType": false,
+        "questionId": "race",
+        "questionTitle": "¿Cuál es su raza?",
+        "questionOptions": [
+            [
+                1,
+                "Asia"
+            ],
+            [
+                2,
+                "Árabe"
+            ],
+            [
+                3,
+                "Negro"
+            ],
+            [
+                4,
+                "Australiano indígena"
+            ],
+            [
+                5,
+                "Nativo Americano"
+            ],
+            [
+                6,
+                "Blanco"
+            ],
+            [
+                7,
+                "Otro"
+            ]
+        ]
+    },
+    {
+        "id": 62,
+        "isQType": false,
+        "questionId": "voted",
+        "questionTitle": "¿Ha votado en unas elecciones nacionales en el último año?",
+        "questionOptions": [
+            [
+                1,
+                "Sí"
+            ],
+            [
+                2,
+                "No"
+            ]
+        ]
+    },
+    {
+        "id": 63,
+        "isQType": false,
+        "questionId": "married",
+        "questionTitle": "¿Cuál es su estado civil?",
+        "questionOptions": [
+            [
+                1,
+                "Nunca se ha casado"
+            ],
+            [
+                2,
+                "Actualmente casado"
+            ],
+            [
+                3,
+                "Anteriormente casado"
+            ]
+        ]
+    }
+]
