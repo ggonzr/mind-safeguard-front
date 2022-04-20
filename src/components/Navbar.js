@@ -9,10 +9,10 @@ const NavbarComponent = () => {
     return (
         <Navbar className="color" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Detección temprana de potenciales trastornos depresivos</Navbar.Brand>
+                <Navbar.Brand href="/">Mind safeguard - Detección temprana de potenciales trastornos depresivos</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">About us</Nav.Link>
-                    <Nav.Link href="#dass">DASS</Nav.Link>
+                    <Nav.Link href="/about">About us</Nav.Link>
+                    <Nav.Link href="/dass">DASS</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
