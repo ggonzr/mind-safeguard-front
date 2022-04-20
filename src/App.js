@@ -1,10 +1,13 @@
 import Questions from "./views/Questions";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola mundo</h1>
+      <Navbar/>
       <Questions/>
+      <Footer/>
     </div>
   );
 }

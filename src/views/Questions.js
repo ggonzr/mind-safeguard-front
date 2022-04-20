@@ -60,11 +60,13 @@ const Questions = () => {
             <Col>{ data ? renderQuestions() : null }</Col>
             <Row className="row-cols-2 prediction-button">
                 <Button
+                    variant="success"
                     onClick={e => handleSubmit()}
                 >
                     Realizar predicción
                 </Button>
                 <Button
+                    variant="info"
                     onClick={e => handleExampleSubmit()}
                 >
                     Realizar predicción con ejemplo

@@ -71,11 +71,13 @@ const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) =>
     };
 
     // Clean form
+    /**
     const cleanForm = () => {
         setQuestionStartTime(null);
         setQuestionAnswer(null);
         setChecked(false);
     };
+    */
 
     // Render component
     return (
@@ -93,6 +95,7 @@ const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) =>
                 </Form>
                 <Row className="row-cols-2">
                     <Button
+                        variant="secondary"
                         onClick={e => {
                             dispatch(register(handleSubmit()));
                             setRegister(true);
