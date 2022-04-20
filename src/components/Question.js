@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useDispatch } from 'react-redux';
 import { register } from "../redux/features/question/questionSlice";
 import Form from "react-bootstrap/Form";
-import { Button, Card } from "react-bootstrap";
+import {Button, Card, Row} from "react-bootstrap";
 import "../css/Question.css";
 
 const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) => {
@@ -13,6 +13,7 @@ const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) =>
     const [questionAnswer, setQuestionAnswer] = useState(null);
     const [questionStartTime, setQuestionStartTime] = useState(null);
     const [isChecked, setChecked] = useState(false);
+    const [isRegistered, setRegister] = useState(false);
 
     // Handle option check
     const handleOptionCheck = (id) => {
@@ -90,11 +91,17 @@ const Question = ({ id, isQType, questionId, questionTitle, questionOptions}) =>
                         {renderOptions()}
                     </Form.Group>
                 </Form>
-                <Button
-                    onClick={e => dispatch(register(handleSubmit()))}
-                >
-                    Registrar respuesta
-                </Button>
+                <Row className="row-cols-2">
+                    <Button
+                        onClick={e => {
+                            dispatch(register(handleSubmit()));
+                            setRegister(true);
+                        }}
+                    >
+                        Registrar respuesta
+                    </Button>
+                    {isRegistered ? <h5>Respuesta registrada</h5> : null}
+                </Row>
             </Card.Body>
         </Card>
     );

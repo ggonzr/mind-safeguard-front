@@ -984,6 +984,30 @@
         ]
     },
     {
+        "id": 42,
+        "isQType": true,
+        "questionId": "Q42",
+        "questionTitle": "Me resultaba difícil tener iniciativa para hacer cosas",
+        "questionOptions": [
+            [
+                1,
+                "No se aplica a mí en absoluto "
+            ],
+            [
+                2,
+                "Aplica cierta medida, o parte del tiempo"
+            ],
+            [
+                3,
+                "Aplica en un grado considerable, o una buena parte del tiempo"
+            ],
+            [
+                4,
+                "Aplica mucho, o la mayor parte del tiempo"
+            ]
+        ]
+    },
+    {
         "id": 43,
         "isQType": false,
         "questionId": "TIPI1",
@@ -1308,7 +1332,43 @@
         ]
     },
     {
-        "id": 54,
+        "id": 52,
+        "isQType": false,
+        "questionId": "TIPI10",
+        "questionTitle": "Me considero una persona: Convencional, poco creativa.",
+        "questionOptions": [
+            [
+                1,
+                "Muy en desacuerdo"
+            ],
+            [
+                2,
+                "En desacuerdo moderado"
+            ],
+            [
+                3,
+                "Un poco en desacuerdo"
+            ],
+            [
+                4,
+                "Ni de acuerdo ni en desacuerdo"
+            ],
+            [
+                5,
+                "Un poco de acuerdo"
+            ],
+            [
+                6,
+                "De acuerdo moderadamente"
+            ],
+            [
+                7,
+                "Muy de acuerdo"
+            ]
+        ]
+    },
+    {
+        "id": 53,
         "isQType": false,
         "questionId": "education",
         "questionTitle": "¿Qué nivel de estudios has completado?",
@@ -1332,7 +1392,7 @@
         ]
     },
     {
-        "id": 55,
+        "id": 54,
         "isQType": false,
         "questionId": "urban",
         "questionTitle": "¿En qué tipo de zona vivía cuando era niño?",
@@ -1352,7 +1412,7 @@
         ]
     },
     {
-        "id": 56,
+        "id": 55,
         "isQType": false,
         "questionId": "gender",
         "questionTitle": "¿Cuál es su género?",
@@ -1372,7 +1432,7 @@
         ]
     },
     {
-        "id": 57,
+        "id": 56,
         "isQType": false,
         "questionId": "engnat",
         "questionTitle": "¿Es el inglés su lengua materna?",
@@ -1388,7 +1448,7 @@
         ]
     },
     {
-        "id": 58,
+        "id": 57,
         "isQType": false,
         "questionId": "hand",
         "questionTitle": "¿Con qué mano escribe?",
@@ -1408,7 +1468,7 @@
         ]
     },
     {
-        "id": 59,
+        "id": 58,
         "isQType": false,
         "questionId": "religion",
         "questionTitle": "¿Cuál es su religión?",
@@ -1464,7 +1524,7 @@
         ]
     },
     {
-        "id": 60,
+        "id": 59,
         "isQType": false,
         "questionId": "orientation",
         "questionTitle": "¿Cuál es su orientación sexual?",
@@ -1492,43 +1552,43 @@
         ]
     },
     {
-        "id": 61,
+        "id": 60,
         "isQType": false,
         "questionId": "race",
         "questionTitle": "¿Cuál es su raza?",
         "questionOptions": [
             [
-                1,
+                10,
                 "Asia"
             ],
             [
-                2,
+                20,
                 "Árabe"
             ],
             [
-                3,
+                30,
                 "Negro"
             ],
             [
-                4,
+                40,
                 "Australiano indígena"
             ],
             [
-                5,
+                50,
                 "Nativo Americano"
             ],
             [
-                6,
+                60,
                 "Blanco"
             ],
             [
-                7,
+                70,
                 "Otro"
             ]
         ]
     },
     {
-        "id": 62,
+        "id": 61,
         "isQType": false,
         "questionId": "voted",
         "questionTitle": "¿Ha votado en unas elecciones nacionales en el último año?",
@@ -1544,7 +1604,7 @@
         ]
     },
     {
-        "id": 63,
+        "id": 62,
         "isQType": false,
         "questionId": "married",
         "questionTitle": "¿Cuál es su estado civil?",
@@ -1560,6 +1620,94 @@
             [
                 3,
                 "Anteriormente casado"
+            ]
+        ]
+    },
+    {
+        "id": 63,
+        "isQType": false,
+        "questionId": "age",
+        "questionTitle": "Su edad actual pertenece a la decada de:",
+        "questionOptions": [
+            [
+                10,
+                "10 años"
+            ],
+            [
+                20,
+                "20 años"
+            ],
+            [
+                30,
+                "30 años"
+            ],
+            [
+                40,
+                "40 años"
+            ],
+            [
+                50,
+                "50 años"
+            ],
+            [
+                60,
+                "60 años"
+            ],
+            [
+                70,
+                "70 años"
+            ],
+            [
+                80,
+                "80 años"
+            ],
+            [
+                90,
+                "90 años"
+            ]
+        ]
+    },
+    {
+        "id": 64,
+        "isQType": false,
+        "questionId": "familysize",
+        "questionTitle": "Incluyendose, ¿Cuántos hijos tuvo su madre?",
+        "questionOptions": [
+            [
+                1,
+                "1"
+            ],
+            [
+                2,
+                "2"
+            ],
+            [
+                3,
+                "3"
+            ],
+            [
+                4,
+                "4"
+            ],
+            [
+                5,
+                "5"
+            ],
+            [
+                6,
+                "6"
+            ],
+            [
+                7,
+                "7"
+            ],
+            [
+                8,
+                "8"
+            ],
+            [
+                9,
+                "9"
             ]
         ]
     }
