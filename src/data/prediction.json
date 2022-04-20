@@ -1,0 +1,11 @@
+{
+  "level": 1,
+  "meaning": "Leve",
+  "probabilities": {
+    "Normal": 0.15,
+    "Leve": 0.448,
+    "Moderado": 0.354,
+    "Severo": 0.046,
+    "Extremadamente severo": 0.002
+  }
+}

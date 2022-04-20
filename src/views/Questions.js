@@ -2,24 +2,41 @@
  * Show the complete DASS form
  */
 
-import { Button, Col } from "react-bootstrap";
+import {Button, Col, Row} from "react-bootstrap";
 import Question from "../components/Question";
+import Result from "../components/Result";
 import data from "../data/questions.json";
+import request from "../data/request.json";
 import { retrieveQuestions } from "../redux/features/question/questionSlice";
-import "../css/Question.css";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { makePrediction } from "../services/prediction";
+import { retrievePrediction, setPrediction } from "../redux/features/prediction/predictionSlice";
+import "../css/Question.css";
 
 
 const Questions = () => {
     // Store questions
     const questionsData = useSelector(retrieveQuestions);
+    // Get prediction data
+    const prediction = useSelector(retrievePrediction);
+    // Dispatch prediction data
+    const dispatch = useDispatch();
 
     // Handle submition
     const handleSubmit = async () => {
-        console.log("Preguntas: " , questionsData);
-        const res = await makePrediction(questionsData);
-        console.log("Response: ", res.data);
+        if (Object.keys(request).length === Object.keys(questionsData).length) {
+            const res = await makePrediction(questionsData);
+            dispatch(setPrediction(res.data));
+        }
+        else {
+            alert("Por favor complete la encuesta")
+        }
+    };
+
+    // Handle example
+    const handleExampleSubmit = async () => {
+        const res = await makePrediction(request);
+        dispatch(setPrediction(res.data));
     };
 
     // Render all questions
@@ -41,12 +58,20 @@ const Questions = () => {
     return (
         <div className="card">
             <Col>{ data ? renderQuestions() : null }</Col>
-            <Button
-                className="prediction-button"
-                onClick={e => handleSubmit()}
-            >
-                Realizar predicción
-            </Button>
+            <Row className="row-cols-2 prediction-button">
+                <Button
+                    onClick={e => handleSubmit()}
+                >
+                    Realizar predicción
+                </Button>
+                <Button
+                    onClick={e => handleExampleSubmit()}
+                >
+                    Realizar predicción con ejemplo
+                </Button>
+            </Row>
+
+            {prediction ? <Result/> : null }
         </div>
     );
 };
