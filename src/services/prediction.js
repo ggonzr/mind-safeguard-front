@@ -10,7 +10,7 @@ const URL = "https://prediction-ywhsiiswia-uc.a.run.app/";
 // Make the prediction
 export const makePrediction = async (body) => {
     try {
-        const res = await axios.post(URL, request);
+        const res = await axios.post(URL, body);
         return res;
     }
     catch (e) {
