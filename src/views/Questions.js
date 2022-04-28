@@ -25,6 +25,7 @@ const Questions = () => {
     // Handle submition
     const handleSubmit = async () => {
         if (Object.keys(request).length === Object.keys(questionsData).length) {
+            console.log()
             const res = await makePrediction(questionsData);
             dispatch(setPrediction(res.data));
         }
